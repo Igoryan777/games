@@ -1,0 +1,33 @@
+body {
+    overflow-x: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.game-img {
+    float: left;
+    margin-right: 15px;
+}
+
+.phone-block {
+    height: 36px;
+}
+
+.game-info {
+    clear: both;
+}
+
+.modal {
+    display: block;
+}
+
+.phone-enter-active, .phone-leave-active {
+    transition: all .5s;
+}
+
+.phone-enter, .phone-leave-to {
+    transform: translateX(50px);
+    opacity: 0;
+}
